@@ -121,7 +121,7 @@ body {
 .objectif-texte {
   width: 480px;
   padding: 4em 6em;
-  background-color: white;
+  background-color: rgba(255,255,255,0.4);
   box-shadow: 50px 50px 100px rgba(0,0,0,0.1);
   position: absolute;
   left: -120px;
@@ -137,10 +137,7 @@ body {
   font-weight: 300;
   font-size: 16px;
 }
-.slide1 {
-  transform: translate(0, 0);
-  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-}
+
 /*.horizontal {
   display: block;
   width: 60px;
@@ -180,7 +177,6 @@ p .light {
 }
 .concept-couleur {
   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-  height: 520px;
   position: relative;
 }
 .concept-photo {
