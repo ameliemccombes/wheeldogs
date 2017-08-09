@@ -111,7 +111,6 @@ body {
 
 /*OBJECTIF*/
 .objectif-wrapper {
-  position: relative;
   margin: 0 auto;
   width: 90%;
 }
@@ -119,12 +118,9 @@ body {
   margin-top: 40px
 }
 .objectif-texte {
-  width: 480px;
   padding: 4em 6em;
   background-color: rgba(255,255,255,0.4);
   box-shadow: 50px 50px 100px rgba(0,0,0,0.1);
-  position: absolute;
-  left: -120px;
 }
 .objectif-container h3 {
   font-family: 'Lato', sans-serif;
@@ -138,42 +134,27 @@ body {
   font-size: 16px;
 }
 
-/*.horizontal {
-  display: block;
-  width: 60px;
-  height: 3px;
-  margin-bottom: 25px;
-  background-color: #a1c4fd;
-  margin-left: -60px;
-}*/
-p .light {
-  font-weight: 300;
-}
-
 /*CONCEPT*/
 .concept-wrapper {
   margin: 0 auto;
   width: 100%;
-  /*border-top: 1px solid #e6e6e6;*/
-  background-color: #F8F8F9;
   background-size: cover;
 }
+.concept-container {
+  margin: 0 auto;
+  width: 90%;
+}
 .concept-description {
-  padding-left: 20%;
-  width: 466px;
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 42px;
+  color: white;
 }
 .concept-description p {
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-}
-.concept-description dt {
-  font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 14px;
-}
-.concept-description dt {
-  margin-bottom: 20px;
+  font-size: 24px;
+  font-style: italic;
 }
 .concept-couleur {
   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
@@ -191,16 +172,9 @@ p .light {
 }
 
 /* APPROCHE */
-.approche-wrapper {
-  /*background-color: #F8F8F9;
-  background-size: cover;*/
-  padding: 20px 0px 0px 0px;
-}
 .approche-container {
   margin: 0 auto;
   width: 90%;
-  padding-top: 20px;
-  /*padding-bottom: 60px;*/
 }
 .approche-detail {
   margin: 0 auto;
@@ -218,34 +192,37 @@ p .light {
   margin-top: 60px;
 }
 .bkg-white {
-  /*background-color: white;*/
   padding: 30px;
 }
 
 /* MANIFESTO */
+.manifesto {
+  background-color: #F8F8F9;
+  background-size: cover;
+}
 .manifesto-container {
   margin: 0 auto;
   width: 90%;
+  padding-top: 40px;
 }
-.manifesto h4 {
+.manifesto-detail {
+  margin: 0 auto;
+  width: 70%;
+}
+.manifesto h3 {
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 14px;
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .manifesto p {
   font-family: 'Lato', sans-serif;
   font-size: 24px;
   margin-bottom: 24px;
 }
-.manifesto .dt {
-  font-family: 'Lato', sans-serif;
-  font-size: 24px;
-}
 
 /* ENGAGEMENT */
-.engagement {
-  /*background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);*/
-}
 .engagement-container {
   margin: 0 auto;
   width: 90%;
@@ -394,15 +371,15 @@ p .light {
   margin-top: 20px;
 }
 .top-ml {
-  margin-top: 120px;
+  margin-top: 90px;
 }
 .margin-top-lg {
-  margin-top: 156px;
+  margin-top: 100px;
 }
 .top {
   margin-top: 160px;
 }
-.top-md {
+.top-xl {
   margin-top: 200px;
 }
 
@@ -416,7 +393,7 @@ p .light {
   margin-bottom: 156px;
 }
 .padding-bottom-md {
-  padding-bottom: 67px;
+  padding-bottom: 60px;
 }
 .padding-bottom-lg {
   padding-bottom: 156px;
