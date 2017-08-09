@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Wheeldogs consulting</title>
     <meta name="description" content="Nous accompagnons votre équipe pour relever ses challenges digitaux en lui donnant l’impulsion et l’entraînement nécessaires.">
+    <meta name="keywords" content="on scroll, effect, slide in, layout, template, transition, javascript" />
 
     <meta property="og:title" content="Wheeldogs consulting - Conseil et Accompagnement au Développement Digital">
     <meta property="og:image" content="facebook-card.jpg">
@@ -13,10 +14,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Chivo:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="js/modernizr.custom.js"></script>
   </head>
 
 
@@ -24,13 +27,13 @@
   <body>
     <div class="wheeldogs centered-wrapper">
       <div class="container" id="home-presentation">
-        <div class="logo">
-          <img src="images/logo.png" style="width: 120px" alt="wheeldogs logo">
+        <div class="logo text-center">
+          <img src="images/LogoBlanc.png" style="width: 120px" alt="wheeldogs logo">
         </div>
         <div class="project">
           <div class="out-wrapper">
             <div class="col-xs-12">
-              <h2 class="text-center text-uppercase top-md">Conseil &<br/>Accompagnement <br/>au Développement Digital</h2>
+              <h2 class="text-center text-uppercase top-xl">Conseil &<br/>Accompagnement <br/>au Développement Digital</h2>
               <span class="smoothscroll" href="#about">
                 <div class="mouse">
                   <div class="wheel"></div>
@@ -56,12 +59,13 @@
     <!-- OBJECTIFS -->
     <div class="objectif-wrapper top">
       <div class="objectif-container">
+
         <div class="row">
           <div class="col-xs-12 col-md-6">
             <img class="img-responsive" src="images/chien.jpg" alt="Wheeldogs consulting" style="width: 493px; height: 493px">
           </div>
 
-          <div class="col-xs-12 col-md-6">
+          <div class="col-xs-12 col-md-5">
             <div class="objectif-right">
               <div class="objectif-texte">
                 <h3 class="text-uppercase">Notre objectif</h3>
@@ -78,27 +82,15 @@
       </div>
     </div>
 
-            <!-- <div>
-              <a href="mailto:aurelien.cunin@wheeldogs.fr?Subject=Contact%20via%20le%20site" target="_top" class="btn-contact" role="button">Contactez-nous</a>
-            </div> -->
-
     <!-- CONCEPT -->
-    <div class="concept-wrapper top">
+    <div class="concept-wrapper top" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/wheeldogs-concept.jpg'); background-size: cover; height: 100vh">
       <div class="row">
-        <div class="col-xs-6 col-xs-offset-1">
-          <div class="concept-description">
-            <p class="top-ml" id="surtitre">Wheeldogs</p>
-            <p class="top-sm bottom-sm">Dans un attelage, chaque chien joue un rôle crucial pour aider l’ensemble de l’équipe à progresser vers l’avant.</p>
-            <dl>
-              <dt>Les <em>leader dogs</em> sont les chiens de tête, qui ont la vue dégagée sur l’environnement et définissent la trajectoire pour l’ensemble du groupe.</dt>
-              <dt>Les <em>team dogs</em>, au milieu de l’attelage, suivent les leaders et sont les moteurs de la progression.</dt>
-              <dt>En fin d’attelage, devant le traineau, les <strong style="color: #a1c4fd">wheel dogs</strong> sont les chiens qui donnent l’impulsion.</dt>
-            </dl>
-          </div>
-        </div>
-        <div class="col-xs-5">
-          <div class="concept-couleur">
-            <div class="concept-photo" style="background-image: url('images/wheeldogs-concept.jpg'); height: 420px; background-size: cover">
+        <div class="col-xs-12">
+          <div class="concept-container" >
+              <div class="concept-description text-center">
+              <p class="top-sm bottom-sm">Dans un attelage, chaque chien joue un rôle crucial<br/>pour aider l’ensemble de l’équipe à progresser vers l’avant.<br/>Les leader dogs sont les chiens de tête, qui ont la vue dégagée sur l’environnement et définissent la trajectoire pour l’ensemble du groupe.<br/>Les team dogs, au milieu de l’attelage, suivent les leaders<br/>et sont les moteurs de la progression.</p>
+              <p>En fin d’attelage, devant le traineau, les <strong style="color: #a1c4fd">wheel dogs</strong> sont les chiens<br/>qui donnent l’impulsion.</p>
+
             </div>
           </div>
         </div>
@@ -107,10 +99,10 @@
 
 
     <!-- APPROCHE -->
-    <div class="approche-wrapper">
+    <div class="approche-wrapper top">
       <div class="approche-container">
 
-        <div class="approche-detail">
+        <div class="approche-detail padding-bottom-md">
           <h3 class="text-uppercase">Notre approche</h3>
           <div class="row">
             <div class="col-xs-12 col-md-4">
@@ -144,13 +136,15 @@
     <!-- MANIFESTO -->
     <div class="manifesto">
       <div class="manifesto-container">
-        <div class="row">
-          <div class="col-xs-10">
-            <h4 class="top bottom-sm">Manifesto</h4>
-            <p>Issus du conseil traditionnel, nous avons un constat et une envie partagés.</p>
-            <p>Nous ne souhaitons plus être les "leader dogs", car nous croyons en la capacité de nos clients à entrevoir le chemin qu’ils souhaitent suivre.
-            Nous ne souhaitons plus être les "team dogs", qui remplacent dans les bureaux des membres plus légitimes de l’équipe de nos clients.</p>
-            <p>Plus que tout, nous aimons découvrir votre environnement et vos préoccupations, pour trouver le meilleur moyen de vous aider à démarrer vos projets, rapidement et avec de premiers résultats, et avec des moyens adaptés à vos ressources.</p>
+        <div class="manifesto-detail padding-bottom-md">
+          <div class="row">
+            <div class="col-xs-12">
+              <h3 class="text-uppercase bottom-sm">Notre philosophie</h3>
+              <p>Issus du conseil traditionnel, nous avons un constat et une envie partagés.</p>
+              <p>Nous ne souhaitons plus être les "leader dogs", car nous croyons en la capacité de nos clients à entrevoir le chemin qu’ils souhaitent suivre.
+              Nous ne souhaitons plus être les "team dogs", qui remplacent dans les bureaux des membres plus légitimes de l’équipe de nos clients.</p>
+              <p>Plus que tout, nous aimons découvrir votre environnement et vos préoccupations, pour trouver le meilleur moyen de vous aider à démarrer vos projets, rapidement et avec de premiers résultats, et avec des moyens adaptés à vos ressources.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -158,7 +152,7 @@
 
 
     <!-- TRAVAILLER ENSEMBLE -->
-    <div class="engagement top">
+    <div class="engagement margin-top-lg padding-bottom-md">
       <div class="engagement-container">
         <div class="engagement-detail">
           <div class="row">
@@ -208,7 +202,7 @@
 
 
     <!-- QUI SOMMES-NOUS ? -->
-    <div class="team top">
+    <div class="team">
       <div class="team-wrapper">
         <div class="team-container">
           <div class="team-detail">
@@ -230,7 +224,7 @@
               </div>
               <div class="col-xs-12 col-md-4">
                 <div class="bkg-white">
-                  <img src="images/Aurelien.png" style="width: 189px" alt="Aurélien Cunin">
+                  <img src="images/Amelie.jpeg" style="width: 189px" alt="Amélie Marcombes">
                   <h4>Amélie Marcombes</h4>
                   <p>Design Thinking,<br/>co-création par les utilisateurs</p>
                 </div>
