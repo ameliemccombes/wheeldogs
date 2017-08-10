@@ -1,0 +1,31 @@
+.top-sm {
+  margin-top: 20px;
+}
+.top-ml {
+  margin-top: 90px;
+}
+.margin-top-lg {
+  margin-top: 100px;
+}
+.top {
+  margin-top: 160px;
+}
+.top-xl {
+  margin-top: 200px;
+}
+
+.bottom-sm {
+  margin-bottom: 20px;
+}
+.margin-lg {
+  margin-bottom: 67px;
+}
+.margin-bottom-lg {
+  margin-bottom: 156px;
+}
+.padding-bottom-md {
+  padding-bottom: 60px;
+}
+.padding-bottom-lg {
+  padding-bottom: 156px;
+}
