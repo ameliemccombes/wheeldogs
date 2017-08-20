@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <script src="js/modernizr.custom.js"></script>
@@ -24,7 +25,7 @@
 
 <!-- BODY -->
   <body>
-    <div class="wheeldogs centered-wrapper">
+    <div id="wheeldogs" class="centered-wrapper">
       <div class="container" id="home-presentation">
         <div class="logo text-center">
           <img src="images/LogoBlanc.png" style="width: 120px" alt="wheeldogs logo">
@@ -54,16 +55,15 @@
       </div>
     </div>
 
+
+
+
     <!-- OBJECTIFS -->
     <div class="objectif-wrapper top">
       <div class="objectif-container">
         <div class="objectif-detail">
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-              <img class="img-responsive" src="images/chien.jpg" alt="Wheeldogs consulting">
-            </div>
 
-            <div class="col-xs-12 col-md-6">
+
               <div class="objectif-texte">
                 <h3 class="text-uppercase">Notre objectif</h3>
                 <div id="objectifs-description">
@@ -72,23 +72,23 @@
                   <p>avec des résultats actionnables en moins de 6 mois,</p>
                   <p>en s’adaptant au contexte des start-ups, PME et grands groupes. </p>
                 </div>
+
               </div>
-            </div>
-          </div>
+
+
         </div>
       </div>
     </div>
 
     <!-- CONCEPT -->
-    <div class="concept-wrapper top" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/wheeldogs-concept.jpg'); background-size: cover; min-height: 100vh;">
+    <div id="hero2" class="concept-wrapper top" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/wheeldogs-concept.jpg')">
         <div class="row" style="margin: 0px">
           <div class="col-xs-12">
             <div class="concept-container" >
-                <div class="concept-description text-center">
-                <h3 class="text-uppercase text-center">Nous sommes Wheeldogs</h3>
+              <div class="concept-description text-center">
+                <h3 class="text-uppercase text-center">Nous sommes les Wheeldogs</h3>
                 <p class="top-sm bottom-sm">Dans un attelage, chaque chien joue un rôle crucial<br/>pour aider l’ensemble de l’équipe à progresser vers l’avant.<br/>Les leader dogs sont les chiens de tête, qui ont la vue dégagée sur l’environnement et définissent la trajectoire pour l’ensemble du groupe.<br/>Les team dogs, au milieu de l’attelage, suivent les leaders<br/>et sont les moteurs de la progression.</p>
                 <p>En fin d’attelage, devant le traineau, les <strong style="color: #a1c4fd">wheel dogs</strong> sont les chiens<br/>qui donnent l’impulsion.</p>
-
               </div>
             </div>
           </div>
